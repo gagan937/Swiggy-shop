@@ -1,0 +1,56 @@
+/* ===== SHOP BY CATEGORY — Blinkit Style ===== */
+.shop-section { background: white; padding: 36px 0; border-bottom: 8px solid var(--bg); }
+.shop-inner { max-width: 1300px; margin: 0 auto; padding: 0 24px; }
+
+/* ── Infinite scroll viewport ── */
+.shop-viewport {
+  overflow: hidden;           /* hides overflow, no scrollbar */
+  margin-top: 24px;
+  cursor: grab;
+  padding: 6px 0 10px;       /* space for card shadow/hover */
+}
+.shop-viewport:active { cursor: grabbing; }
+
+.shop-track-infinite {
+  display: flex; gap: 14px;
+  width: max-content;
+  will-change: transform;    /* GPU layer */
+}
+
+/* ── Card ── */
+.shop-card-link { text-decoration: none; flex-shrink: 0; }
+.shop-card-box {
+  width: 158px; border-radius: 14px; overflow: hidden;
+  background: white; border: 2px solid var(--border);
+  cursor: pointer;
+  transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+}
+.shop-card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.13);
+  border-color: var(--blinkit);
+}
+
+.shop-card-img-wrap {
+  height: 118px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #f8fff8, #e8f5e9);
+  padding: 10px;
+}
+.shop-card-img-wrap img {
+  width: 88px; height: 88px; object-fit: contain;
+  transition: transform 0.35s;
+}
+.shop-card-box:hover .shop-card-img-wrap img { transform: scale(1.12); }
+
+.shop-card-info { padding: 10px 12px 13px; border-top: 1px solid var(--border); }
+.shop-card-name { font-size: 12px; font-weight: 800; color: var(--dark); margin-bottom: 5px; line-height: 1.3; }
+.shop-card-tag {
+  display: inline-block; padding: 2px 8px;
+  background: var(--blinkit-light); color: var(--blinkit);
+  border-radius: 6px; font-size: 10px; font-weight: 800; letter-spacing: 0.3px;
+}
+
+/* section nav buttons reused */
+.section-nav button { transition: all 0.2s; }
+.section-nav button:hover { background: var(--primary); border-color: var(--primary); color: white; }

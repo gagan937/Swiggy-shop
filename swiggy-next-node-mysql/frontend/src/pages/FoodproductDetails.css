@@ -1,0 +1,47 @@
+/* ===== FOOD PRODUCT DETAIL PAGE ===== */
+.fpd-page { min-height: 100vh; background: var(--bg); }
+.fpd-back-bar { background: white; border-bottom: 1px solid var(--border); padding: 14px 24px; }
+.fpd-back-bar-inner { max-width: 1300px; margin: 0 auto; display: flex; align-items: center; gap: 14px; }
+.fpd-back {
+  padding: 8px 18px; background: white; border: 2px solid var(--border);
+  border-radius: 8px; font-size: 13px; font-weight: 800; font-family: var(--font);
+  cursor: pointer; color: var(--dark); transition: all 0.2s;
+}
+.fpd-back:hover { border-color: var(--primary); color: var(--primary); }
+
+.fpd-body { max-width: 1300px; margin: 0 auto; padding: 28px 24px; }
+.fpd-card { display: grid; grid-template-columns: 400px 1fr; gap: 24px; }
+
+.fpd-img-col { background: white; border-radius: 14px; border: 1px solid var(--border); overflow: hidden; }
+.fpd-img-wrap { height: 280px; display: flex; align-items: center; justify-content: center; background: var(--light-gray); padding: 24px; }
+.fpd-img-wrap img { max-width: 220px; max-height: 220px; object-fit: contain; }
+
+.fpd-info-col { background: white; border-radius: 14px; border: 1px solid var(--border); padding: 28px; }
+.fpd-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--primary-light); color: var(--primary);
+  font-size: 11px; font-weight: 800; padding: 3px 12px; border-radius: 20px; margin-bottom: 14px;
+}
+.fpd-badge-rating { background: #388e3c; color: white; border-radius: 4px; padding: 1px 6px; font-size: 10px; font-weight: 800; }
+.fpd-name { font-size: 22px; font-weight: 900; color: var(--dark); margin-bottom: 6px; line-height: 1.2; }
+.fpd-category { font-size: 14px; color: var(--gray); font-weight: 600; margin-bottom: 4px; }
+.fpd-price { font-size: 26px; font-weight: 900; color: var(--primary); margin-bottom: 4px; }
+.fpd-location { font-size: 13px; color: var(--gray); font-weight: 600; margin-bottom: 6px; }
+.fpd-time { font-size: 13px; color: var(--blinkit); font-weight: 700; margin-bottom: 20px; }
+.fpd-divider { height: 1px; background: var(--border); margin: 20px 0; }
+.fpd-order-btn {
+  width: 100%; padding: 14px;
+  background: var(--primary); color: white;
+  border: none; border-radius: 10px;
+  font-size: 14px; font-weight: 900; font-family: var(--font);
+  cursor: pointer; transition: all 0.2s;
+}
+.fpd-order-btn:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 6px 18px rgba(226,55,68,0.35); }
+
+@media(max-width:900px){
+  .fpd-card { grid-template-columns: 1fr; }
+  .fpd-img-wrap { height: 200px; }
+}
+@media(max-width:600px){
+  .fpd-body { padding: 14px; }
+}

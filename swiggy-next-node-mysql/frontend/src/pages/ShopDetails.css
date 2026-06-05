@@ -1,0 +1,83 @@
+/* ===== SHOP DETAIL PAGE — Blinkit Style ===== */
+.shop-detail-page { min-height: 100vh; background: var(--bg); }
+
+.sd-hero { background: linear-gradient(135deg, #0c831f 0%, #0a6619 100%); color: white; padding: 28px 0 32px; }
+.sd-hero-inner { max-width: 1300px; margin: 0 auto; padding: 0 24px; }
+.sd-hero-top { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+.sd-back {
+  padding: 7px 16px; background: rgba(255,255,255,0.15); backdrop-filter: blur(6px);
+  color: white; border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 8px; font-size: 13px; font-weight: 800; font-family: var(--font);
+  cursor: pointer; transition: all 0.2s;
+}
+.sd-back:hover { background: rgba(255,255,255,0.25); }
+.sd-breadcrumb { font-size: 13px; color: rgba(255,255,255,0.7); font-weight: 500; }
+
+.sd-hero-content { display: flex; align-items: center; gap: 18px; }
+.sd-hero-icon { font-size: 48px; }
+.sd-hero-title { font-size: 26px; font-weight: 900; margin-bottom: 10px; }
+.sd-hero-sub { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.sd-hero-sub span { font-size: 13px; color: rgba(255,255,255,0.85); font-weight: 600; }
+.sd-hero-tag {
+  background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 20px; padding: 2px 12px; font-size: 12px; font-weight: 700;
+}
+
+.sd-main { max-width: 1300px; margin: 0 auto; padding: 24px; }
+.sd-sort-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; overflow-x: auto; padding-bottom: 4px; }
+.sd-sort-bar::-webkit-scrollbar { display: none; }
+.sd-sort-btn {
+  padding: 7px 18px; border-radius: 30px; white-space: nowrap;
+  font-size: 13px; font-weight: 700; font-family: var(--font);
+  background: white; color: var(--gray); border: 2px solid var(--border);
+  cursor: pointer; transition: all 0.2s; flex-shrink: 0;
+}
+.sd-sort-btn:hover, .sd-sort-btn.active { background: var(--blinkit-light); color: var(--blinkit); border-color: var(--blinkit); }
+.sd-count { font-size: 13px; color: var(--gray); font-weight: 600; margin-left: auto; white-space: nowrap; flex-shrink: 0; }
+
+.sd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
+}
+
+.sd-card {
+  background: white; border-radius: 14px; overflow: hidden;
+  border: 1px solid var(--border); cursor: pointer;
+  transition: all 0.25s;
+  opacity: 0; transform: translateY(20px);
+}
+.sd-card.visible { opacity: 1; transform: translateY(0); transition: opacity 0.4s ease, transform 0.4s ease, box-shadow 0.25s; }
+.sd-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.12); transform: translateY(-3px); border-color: var(--blinkit); }
+
+.sd-card-img { position: relative; height: 160px; background: var(--light-gray); overflow: hidden; }
+.sd-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+.sd-card:hover .sd-card-img img { transform: scale(1.06); }
+.sd-card-discount {
+  position: absolute; top: 10px; left: 10px;
+  background: var(--blinkit); color: white;
+  font-size: 10px; font-weight: 800; padding: 3px 9px; border-radius: 20px;
+}
+
+.sd-card-body { padding: 12px; }
+.sd-card-name { font-size: 13px; font-weight: 800; color: var(--dark); margin-bottom: 5px; line-height: 1.3; }
+.sd-card-loc { font-size: 11px; color: var(--gray); font-weight: 600; margin-bottom: 10px; }
+.sd-card-bottom { display: flex; align-items: center; justify-content: space-between; }
+.sd-card-price { font-size: 15px; font-weight: 900; color: var(--dark); }
+.sd-card-add {
+  padding: 7px 14px;
+  background: var(--blinkit-light); color: var(--blinkit);
+  border: 2px solid var(--blinkit); border-radius: 8px;
+  font-size: 12px; font-weight: 900; font-family: var(--font);
+  cursor: pointer; transition: all 0.2s;
+}
+.sd-card-add:hover { background: var(--blinkit); color: white; }
+
+@media(max-width:600px){
+  .sd-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .sd-hero-title { font-size: 20px; }
+  .sd-main { padding: 14px; }
+}
+@media(max-width:380px){
+  .sd-grid { grid-template-columns: 1fr; }
+}

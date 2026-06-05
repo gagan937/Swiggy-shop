@@ -1,0 +1,14 @@
+@import "../src/index.css";
+@import "../src/App.css";
+@import "../src/components/nabvar.css";
+@import "../src/components/slider.css";
+@import "../src/components/foodoptions.css";
+@import "../src/components/shopslider.css";
+@import "../src/components/FoodDilevery.css";
+@import "../src/components/Footer.css";
+@import "../src/components/Mapbox.css";
+@import "../src/pages/FoodDetail.css";
+@import "../src/pages/ShopDetails.css";
+@import "../src/pages/ProductDetails.css";
+@import "../src/pages/FoodproductDetails.css";
+@import "./order/order.css";

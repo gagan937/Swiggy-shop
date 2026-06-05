@@ -1,0 +1,72 @@
+/* ===== WHAT'S ON YOUR MIND — Zomato Style ===== */
+.wom-section { background: white; padding: 36px 0 28px; border-bottom: 8px solid var(--bg); }
+.wom-inner { max-width: 1300px; margin: 0 auto; padding: 0 24px; }
+
+.section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+.section-header h2 { font-size: 22px; font-weight: 900; color: var(--dark); font-family: var(--font); }
+.section-header p { font-size: 13px; color: var(--gray); margin-top: 3px; font-weight: 500; }
+.section-nav { display: flex; gap: 8px; }
+.section-nav button {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: white; border: 2px solid var(--border);
+  font-size: 18px; cursor: pointer; color: var(--dark);
+  display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+  font-weight: 600;
+}
+.section-nav button:hover { background: var(--primary); border-color: var(--primary); color: white; }
+
+/* Scroll container — PADDING so hover border is never clipped */
+.wom-scroll {
+  overflow-x: auto; scroll-behavior: smooth;
+  padding: 8px 4px 12px;          /* ← extra padding = hover border visible */
+}
+.wom-scroll::-webkit-scrollbar { display: none; }
+
+/* Both rows, centered */
+.wom-rows { display: flex; flex-direction: column; gap: 10px; min-width: max-content; }
+.wom-row  { display: flex; gap: 4px; justify-content: center; }
+
+/* Individual item */
+.wom-item {
+  display: flex; flex-direction: column; align-items: center; gap: 9px;
+  padding: 12px 8px 10px; border-radius: 14px; cursor: pointer;
+  transition: all 0.25s; min-width: 100px; max-width: 108px;
+  border: 2px solid transparent; text-decoration: none;
+  flex-shrink: 0;
+}
+/* Hover: border visible because parent has padding */
+.wom-item:hover {
+  background: var(--primary-light);
+  border-color: var(--primary);
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(226,55,68,0.15);
+}
+
+/* Full circle — image fills completely */
+.wom-img-wrap {
+  width: 88px; height: 88px; border-radius: 50%;
+  background: #f0f0f0; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+  border: 3px solid #e8e8e8; transition: border-color 0.2s;
+  flex-shrink: 0;
+}
+.wom-item:hover .wom-img-wrap { border-color: var(--primary); }
+.wom-img-wrap img {
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  transition: transform 0.3s;
+}
+.wom-item:hover .wom-img-wrap img { transform: scale(1.1); }
+
+/* Label below circle */
+.wom-item span {
+  font-size: 13px; font-weight: 800; color: var(--dark);
+  text-align: center; line-height: 1.2; white-space: nowrap;
+}
+
+@media(max-width:768px){
+  .wom-row { justify-content: flex-start; } /* on mobile scroll left-to-right */
+  .wom-item { min-width: 84px; max-width: 92px; padding: 10px 6px 8px; }
+  .wom-img-wrap { width: 70px; height: 70px; }
+  .wom-item span { font-size: 11px; }
+}

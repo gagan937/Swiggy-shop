@@ -1,0 +1,168 @@
+{
+  "_comment": "Edit 'offerPercent' to change discount shown on all shop item cards. Min 0, Max 99.",
+  "offerPercent": 5,
+  "cities": {
+    "Agra": {
+      "icon": "🏛️",
+      "state": "UP",
+      "mithai": [
+        { "id":"ag1", "name":"Petha (Angoori)", "price":"₹120/500g", "location":"Agra", "img":"/image/sweet1.png", "desc":"Agra ka mashoor meetha" },
+        { "id":"ag2", "name":"Petha (Kesar)", "price":"₹150/500g", "location":"Agra", "img":"/image/sweet2.png", "desc":"Saffron flavoured" },
+        { "id":"ag3", "name":"Petha (Plain)", "price":"₹100/500g", "location":"Agra", "img":"/image/sweet5.webp", "desc":"Classic Agra petha" },
+        { "id":"ag4", "name":"Gajak", "price":"₹80/250g", "location":"Agra", "img":"/image/sweet9.png", "desc":"Til aur gur ki mishtan" },
+        { "id":"ag5", "name":"Rewri", "price":"₹60/250g", "location":"Agra", "img":"/image/sweet10.webp", "desc":"Crispy sesame sweet" }
+      ],
+      "fruits": [
+        { "id":"agf1", "name":"Dasheri Mango", "price":"₹200/kg", "location":"Agra", "img":"/image/fruits3.jpg", "desc":"Agra ka famous aam" },
+        { "id":"agf2", "name":"Guava (Allahabad)", "price":"₹80/kg", "location":"Agra", "img":"/image/fruits8.jpg", "desc":"Mashoor amrood" },
+        { "id":"agf3", "name":"Aonla (Amla)", "price":"₹40/kg", "location":"Agra", "img":"/image/fruits6.jpg", "desc":"Vitamin C se bharpur" },
+        { "id":"agf4", "name":"Bel (Wood Apple)", "price":"₹30/piece", "location":"Agra", "img":"/image/fruits7.jpg", "desc":"Refreshing summer drink" },
+        { "id":"agf5", "name":"Watermelon (Mathura)", "price":"₹25/kg", "location":"Agra", "img":"/image/fruits4.webp", "desc":"Grishma ka fal" }
+      ]
+    },
+    "Meerut": {
+      "icon": "🏙️",
+      "state": "UP",
+      "mithai": [
+        { "id":"me1", "name":"Gazak (Til-Gur)", "price":"₹90/250g", "location":"Meerut", "img":"/image/sweet1.png", "desc":"Meerut ki mashoor gazak" },
+        { "id":"me2", "name":"Rewri",            "price":"₹60/250g", "location":"Meerut", "img":"/image/sweet2.png", "desc":"Til ki meethi rewri" },
+        { "id":"me3", "name":"Chikki (Moongphali)", "price":"₹50/200g", "location":"Meerut", "img":"/image/sweet5.webp", "desc":"Peanut chikki" },
+        { "id":"me4", "name":"Halwa (Sooji)",    "price":"₹60/250g", "location":"Meerut", "img":"/image/sweettooth7.webp", "desc":"Pure ghee mein bana" },
+        { "id":"me5", "name":"Jalebi (Fresh)",   "price":"₹80/500g", "location":"Meerut", "img":"/image/sweettooth6.webp", "desc":"Crispy aur meethi" }
+      ],
+      "fruits": [
+        { "id":"mef1", "name":"Litchi (Muzaffarnagar)", "price":"₹150/kg",  "location":"Meerut", "img":"/image/fruits5.jpg", "desc":"Meerut ke paas ka litchi" },
+        { "id":"mef2", "name":"Sugarcane Juice",        "price":"₹20/glass","location":"Meerut", "img":"/image/fruits6.jpg", "desc":"Ganne ka taaza ras" },
+        { "id":"mef3", "name":"Jamun (Black Plum)",     "price":"₹100/kg",  "location":"Meerut", "img":"/image/fruits7.jpg", "desc":"Monsoon special" },
+        { "id":"mef4", "name":"Peach (Aroo)",           "price":"₹120/kg",  "location":"Meerut", "img":"/image/fruits9.jpeg","desc":"Local peach" },
+        { "id":"mef5", "name":"Falsa",                  "price":"₹60/250g", "location":"Meerut", "img":"/image/fruits10.webp","desc":"Tasty summer berry" }
+      ]
+    },
+    "Delhi": {
+      "icon": "🌆",
+      "state": "Delhi",
+      "mithai": [
+        { "id":"de1", "name":"Balushahi",          "price":"₹200/500g", "location":"Delhi", "img":"/image/sweet1.png",      "desc":"Old Delhi ki mashoor" },
+        { "id":"de2", "name":"Sohan Halwa",        "price":"₹300/500g", "location":"Delhi", "img":"/image/sweet2.png",      "desc":"Chandni Chowk special" },
+        { "id":"de3", "name":"Karachi Halwa",      "price":"₹250/500g", "location":"Delhi", "img":"/image/sweettooth3.jpg", "desc":"Corn flour halwa" },
+        { "id":"de4", "name":"Kachori (Bedmi)",    "price":"₹30/piece", "location":"Delhi", "img":"/image/sweettooth4.webp","desc":"Old Delhi breakfast" },
+        { "id":"de5", "name":"Daulat ki Chaat",    "price":"₹50/plate", "location":"Delhi", "img":"/image/sweettooth6.webp","desc":"Winter special Delhi" }
+      ],
+      "fruits": [
+        { "id":"def1", "name":"Strawberry (Himachal)", "price":"₹250/250g", "location":"Delhi", "img":"/image/fruits10.webp","desc":"Fresh pahadi strawberry" },
+        { "id":"def2", "name":"Kinnow (Punjab)",       "price":"₹100/kg",   "location":"Delhi", "img":"/image/fruits9.jpeg", "desc":"Sweet citrus fruit" },
+        { "id":"def3", "name":"Pear (Nashpati)",       "price":"₹150/kg",   "location":"Delhi", "img":"/image/fruits8.jpg",  "desc":"Himachali pear" },
+        { "id":"def4", "name":"Plum (Aloo Bukhara)",   "price":"₹200/kg",   "location":"Delhi", "img":"/image/fruits5.jpg",  "desc":"Sour-sweet plum" },
+        { "id":"def5", "name":"Grapes (Nasik)",         "price":"₹120/kg",   "location":"Delhi", "img":"/image/fruits2.jpg",  "desc":"Seedless grapes" }
+      ]
+    },
+    "Mathura": {
+      "icon": "🛕",
+      "state": "UP",
+      "mithai": [
+        { "id":"ma1", "name":"Peda (Mathura)",  "price":"₹200/500g", "location":"Mathura", "img":"/image/sweet9.png",      "desc":"Mathura ka mashoor peda" },
+        { "id":"ma2", "name":"Khurchan",        "price":"₹300/500g", "location":"Mathura", "img":"/image/sweet10.webp",    "desc":"Pure milk mishtan" },
+        { "id":"ma3", "name":"Makkhan Mishri",  "price":"₹150/250g", "location":"Mathura", "img":"/image/sweet1.png",      "desc":"Makhan aur mishri" },
+        { "id":"ma4", "name":"Rabdi",           "price":"₹80/cup",   "location":"Mathura", "img":"/image/sweet2.png",      "desc":"Thick creamy dessert" },
+        { "id":"ma5", "name":"Dudh Jalebi",     "price":"₹100/plate","location":"Mathura", "img":"/image/sweettooth6.webp","desc":"Jalebi dipped in milk" }
+      ],
+      "fruits": [
+        { "id":"maf1", "name":"Bel (Shri Krishna Bel)", "price":"₹30/piece", "location":"Mathura", "img":"/image/fruits7.jpg", "desc":"Sacred fruit of Vrindavan" },
+        { "id":"maf2", "name":"Watermelon",              "price":"₹20/kg",   "location":"Mathura", "img":"/image/fruits4.webp","desc":"Yamuna belt ki tarbooz" },
+        { "id":"maf3", "name":"Muskmelon (Kharbooza)",   "price":"₹30/kg",   "location":"Mathura", "img":"/image/fruits1.jpg", "desc":"Summer refreshment" },
+        { "id":"maf4", "name":"Jamun",                   "price":"₹90/kg",   "location":"Mathura", "img":"/image/fruits6.jpg", "desc":"Monsoon special" },
+        { "id":"maf5", "name":"Banana (Desi)",            "price":"₹50/dozen","location":"Mathura", "img":"/image/fruits3.jpg", "desc":"Puja ke liye bhi" }
+      ]
+    },
+    "Haridwar": {
+      "icon": "🛕",
+      "state": "UK",
+      "mithai": [
+        { "id":"hw1", "name":"Patisa (Soan Papdi)", "price":"₹150/500g", "location":"Haridwar", "img":"/image/sweet1.png",      "desc":"Haridwar famous" },
+        { "id":"hw2", "name":"Khaja",               "price":"₹100/250g", "location":"Haridwar", "img":"/image/sweet2.png",      "desc":"Crispy fried sweet" },
+        { "id":"hw3", "name":"Lakshmi Narayan Halwa","price":"₹200/500g", "location":"Haridwar", "img":"/image/sweettooth7.webp","desc":"Prasad quality" },
+        { "id":"hw4", "name":"Panchamrit",           "price":"₹50/cup",   "location":"Haridwar", "img":"/image/sweet9.png",      "desc":"Sacred sweet mixture" },
+        { "id":"hw5", "name":"Chyawanprash Barfi",   "price":"₹180/500g", "location":"Haridwar", "img":"/image/sweet10.webp",    "desc":"Ayurvedic sweet" }
+      ],
+      "fruits": [
+        { "id":"hwf1", "name":"Litchi (Dehradun)",   "price":"₹180/kg",  "location":"Haridwar", "img":"/image/fruits5.jpg",  "desc":"Pahadi litchi" },
+        { "id":"hwf2", "name":"Apple (Pahadi)",       "price":"₹200/kg",  "location":"Haridwar", "img":"/image/fruits1.jpg",  "desc":"Fresh pahadi apple" },
+        { "id":"hwf3", "name":"Rhododendron (Buransh)","price":"₹60/bottle","location":"Haridwar","img":"/image/fruits6.jpg", "desc":"Himalayan flower juice" },
+        { "id":"hwf4", "name":"Walnut (Akhrot)",      "price":"₹400/kg",  "location":"Haridwar", "img":"/image/fruits8.jpg",  "desc":"Fresh pahadi akhrot" },
+        { "id":"hwf5", "name":"Peach (Pahadi Aroo)",  "price":"₹150/kg",  "location":"Haridwar", "img":"/image/fruits9.jpeg", "desc":"Mountain peach" }
+      ]
+    },
+    "Dehradun": {
+      "icon": "⛰️",
+      "state": "UK",
+      "mithai": [
+        { "id":"dd1", "name":"Bal Mithai",      "price":"₹300/500g", "location":"Dehradun", "img":"/image/sweet1.png",      "desc":"Uttarakhand ki mashoor" },
+        { "id":"dd2", "name":"Singori",         "price":"₹150/6pcs", "location":"Dehradun", "img":"/image/sweet2.png",      "desc":"Maalu leaf wrapped" },
+        { "id":"dd3", "name":"Arsa",            "price":"₹200/500g", "location":"Dehradun", "img":"/image/sweettooth3.jpg", "desc":"Gur aur rice sweet" },
+        { "id":"dd4", "name":"Buransh Sherbet", "price":"₹60/bottle","location":"Dehradun", "img":"/image/sweet9.png",      "desc":"Rhododendron drink" },
+        { "id":"dd5", "name":"Jhangore ki Kheer","price":"₹80/cup",  "location":"Dehradun", "img":"/image/sweettooth7.webp","desc":"Barnyard millet kheer" }
+      ],
+      "fruits": [
+        { "id":"ddf1", "name":"Litchi",          "price":"₹200/kg",   "location":"Dehradun", "img":"/image/fruits5.jpg",  "desc":"Dehradun's best" },
+        { "id":"ddf2", "name":"Apple (Kashmiri)","price":"₹220/kg",   "location":"Dehradun", "img":"/image/fruits1.jpg",  "desc":"Fresh from hills" },
+        { "id":"ddf3", "name":"Pear",            "price":"₹160/kg",   "location":"Dehradun", "img":"/image/fruits8.jpg",  "desc":"Juicy pahadi naspati" },
+        { "id":"ddf4", "name":"Walnut (Akhrot)", "price":"₹450/kg",   "location":"Dehradun", "img":"/image/fruits7.jpg",  "desc":"Premium quality" },
+        { "id":"ddf5", "name":"Plum (Pahadi)",   "price":"₹180/kg",   "location":"Dehradun", "img":"/image/fruits9.jpeg", "desc":"Pahadi aloo bukhara" }
+      ]
+    },
+    "Noida": {
+      "icon": "🏢",
+      "state": "UP",
+      "mithai": [
+        { "id":"no1", "name":"Ladoo (Motichoor)", "price":"₹300/500g", "location":"Noida", "img":"/image/sweet1.png",      "desc":"Fresh motichoor ladoo" },
+        { "id":"no2", "name":"Kaju Barfi",        "price":"₹600/500g", "location":"Noida", "img":"/image/sweettooth3.jpg", "desc":"Cashew sweet" },
+        { "id":"no3", "name":"Rasgulla",          "price":"₹140/500g", "location":"Noida", "img":"/image/sweet2.png",      "desc":"Spongy and syrupy" },
+        { "id":"no4", "name":"Gulab Jamun",       "price":"₹120/500g", "location":"Noida", "img":"/image/sweettooth6.webp","desc":"Classic Indian sweet" },
+        { "id":"no5", "name":"Pista Barfi",       "price":"₹700/500g", "location":"Noida", "img":"/image/sweet9.png",      "desc":"Pistachio barfi" }
+      ],
+      "fruits": [
+        { "id":"nof1", "name":"Mango (Langda)",    "price":"₹250/kg",  "location":"Noida", "img":"/image/fruits3.jpg",  "desc":"UP ka mashoor aam" },
+        { "id":"nof2", "name":"Papaya",            "price":"₹60/kg",   "location":"Noida", "img":"/image/fruits6.jpg",  "desc":"Fresh papaya" },
+        { "id":"nof3", "name":"Grapes",            "price":"₹120/kg",  "location":"Noida", "img":"/image/fruits2.jpg",  "desc":"Sweet seedless" },
+        { "id":"nof4", "name":"Pineapple",         "price":"₹80/piece","location":"Noida", "img":"/image/fruits5.jpg",  "desc":"Tropical delight" },
+        { "id":"nof5", "name":"Dragon Fruit",      "price":"₹300/piece","location":"Noida","img":"/image/fruits10.webp","desc":"Exotic superfruit" }
+      ]
+    },
+    "Ghaziabad": {
+      "icon": "🏗️",
+      "state": "UP",
+      "mithai": [
+        { "id":"gh1", "name":"Khurma",          "price":"₹100/250g", "location":"Ghaziabad", "img":"/image/sweet1.png",      "desc":"Fried sweet bread" },
+        { "id":"gh2", "name":"Shakkar Para",    "price":"₹80/250g",  "location":"Ghaziabad", "img":"/image/sweet2.png",      "desc":"Crispy sweet snack" },
+        { "id":"gh3", "name":"Besan Ladoo",     "price":"₹250/500g", "location":"Ghaziabad", "img":"/image/sweettooth4.webp","desc":"Gram flour ladoo" },
+        { "id":"gh4", "name":"Namak Para",      "price":"₹60/250g",  "location":"Ghaziabad", "img":"/image/sweet9.png",      "desc":"Salty crispy snack" },
+        { "id":"gh5", "name":"Mohanthal",       "price":"₹300/500g", "location":"Ghaziabad", "img":"/image/sweettooth7.webp","desc":"Rich gram flour fudge" }
+      ],
+      "fruits": [
+        { "id":"ghf1", "name":"Banana (Robusta)", "price":"₹60/dozen","location":"Ghaziabad", "img":"/image/fruits2.jpg",  "desc":"Fresh from farm" },
+        { "id":"ghf2", "name":"Guava",            "price":"₹70/kg",   "location":"Ghaziabad", "img":"/image/fruits8.jpg",  "desc":"Sweet winter guava" },
+        { "id":"ghf3", "name":"Amla (Gooseberry)","price":"₹40/kg",   "location":"Ghaziabad", "img":"/image/fruits6.jpg",  "desc":"Immunity booster" },
+        { "id":"ghf4", "name":"Sitaphal (Custard Apple)","price":"₹150/kg","location":"Ghaziabad","img":"/image/fruits7.jpg","desc":"Creamy sweet fruit" },
+        { "id":"ghf5", "name":"Ber (Indian Jujube)","price":"₹50/250g","location":"Ghaziabad","img":"/image/fruits9.jpeg","desc":"Winter special" }
+      ]
+    },
+    "Muzaffarnagar": {
+      "icon": "🌿",
+      "state": "UP",
+      "mithai": [
+        { "id":"mz1", "name":"Gur (Jaggery) Barfi", "price":"₹80/250g",  "location":"Muzaffarnagar", "img":"/image/sweet1.png",      "desc":"Gaanne ka gur" },
+        { "id":"mz2", "name":"Gur Chikki",           "price":"₹60/250g",  "location":"Muzaffarnagar", "img":"/image/sweet2.png",      "desc":"Til gur chikki" },
+        { "id":"mz3", "name":"Sugarcane Kheer",       "price":"₹70/cup",   "location":"Muzaffarnagar", "img":"/image/sweettooth7.webp","desc":"Fresh gaanna kheer" },
+        { "id":"mz4", "name":"Rasmalai",              "price":"₹180/500g", "location":"Muzaffarnagar", "img":"/image/sweettooth6.webp","desc":"Soft milk discs" },
+        { "id":"mz5", "name":"Gur ka Halwa",          "price":"₹100/250g", "location":"Muzaffarnagar", "img":"/image/sweet9.png",      "desc":"Jaggery halwa" }
+      ],
+      "fruits": [
+        { "id":"mzf1", "name":"Litchi (Muzaffarnagar)","price":"₹160/kg", "location":"Muzaffarnagar", "img":"/image/fruits5.jpg",  "desc":"North India best litchi" },
+        { "id":"mzf2", "name":"Sugarcane (Ganna)",    "price":"₹20/piece","location":"Muzaffarnagar", "img":"/image/fruits6.jpg",  "desc":"Meetha gaanna" },
+        { "id":"mzf3", "name":"Mango (Desi)",         "price":"₹200/kg",  "location":"Muzaffarnagar", "img":"/image/fruits3.jpg",  "desc":"Local variety mango" },
+        { "id":"mzf4", "name":"Jamun",                "price":"₹90/kg",   "location":"Muzaffarnagar", "img":"/image/fruits7.jpg",  "desc":"Seasonal berry" },
+        { "id":"mzf5", "name":"Falsa",                "price":"₹50/250g", "location":"Muzaffarnagar", "img":"/image/fruits10.webp","desc":"Sour-sweet summer" }
+      ]
+    }
+  }
+}

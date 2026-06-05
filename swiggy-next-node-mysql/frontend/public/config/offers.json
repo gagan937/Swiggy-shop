@@ -1,0 +1,10 @@
+{
+  "_comment": "Yahan offer badlein — discount 0-100 ke beech rakhen, active true/false se on-off karein",
+  "globalDiscount": 5,
+  "offers": [
+    { "id": 1, "label": "5% OFF",  "minDiscount": 5,  "maxDiscount": 5,  "active": true,  "color": "#0c831f" },
+    { "id": 2, "label": "10% OFF", "minDiscount": 10, "maxDiscount": 10, "active": false, "color": "#e23744" },
+    { "id": 3, "label": "FLAT ₹20 OFF", "minDiscount": 0, "maxDiscount": 0, "flatOff": 20, "active": false, "color": "#fc8019" }
+  ],
+  "activeOfferId": 1
+}
