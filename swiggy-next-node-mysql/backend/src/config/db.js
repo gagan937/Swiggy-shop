@@ -12,4 +12,8 @@ export const pool = mysql.createPool({
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
+  // Cloud (Aiven) connection ke liye SSL zaroori hai
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
